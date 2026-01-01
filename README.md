@@ -42,5 +42,5 @@ Visual Studio 2026を使用しています。Version: 18.1.1
 ご要望等がございましたらメール下さい。  
   
 # License
-rootのjsのみ　MIT license。著作権は、Teamwindです。  
+MIT license。著作権は、Teamwindです。  
 
