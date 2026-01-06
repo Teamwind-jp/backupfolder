@@ -234,8 +234,6 @@ Public Class Form1
 
 #Region "copy本体"
 
-	Private frompathbk As String = ""
-
 	Private Function CopyFolderFile(ByVal frompath As String, ByVal topath As String) As Integer
 
 		Dim bcopy As Boolean
@@ -540,10 +538,6 @@ Public Class Form1
 
 		'コピー元フォルダはダメ
 
-		' テスト例
-		Dim parentDir As String = "C:\Test"
-		Dim childDir1 As String = "C:\Test\SubFolder"
-		Dim childDir2 As String = "C:\Other"
 
 		If isSubdirectory(sfolder, dfolder) = True Then
 			MessageBox.Show("エラー　コピー先フォルダがコピー元フォルダの中にあります。", Me.Text, MessageBoxButtons.OK, MessageBoxIcon.Error)
